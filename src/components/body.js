@@ -16,7 +16,7 @@ import { useState, useEffect } from "react";
             // Determine if this word is complete
             if (!isDeleting && text === currentWord) {
               // Make a pause at the end
-              setTimeout(() => setIsDeleting(true), 500);
+              setTimeout(() => setIsDeleting(true), 700);
             } else if (isDeleting && text === '') {
               setIsDeleting(false);
               // Move to the next word
@@ -30,18 +30,12 @@ import { useState, useEffect } from "react";
           // Add dependencies to the dependency array
           }, [wordIndex, isDeleting, text]);
         
-        
         return <> 
         <div className="intro">
-        <h2 className='HW'>Hello, World!</h2>
+        <h2 className='HW'>Hello World, I'm Abe!</h2> 
+        <h3>{text}</h3>
         <img className="imgme" src="https://media.licdn.com/dms/image/D4E03AQEhNGnTmIHRfg/profile-displayphoto-shrink_800_800/0/1696491861573?e=1708560000&v=beta&t=s8v5xTRsSD6KWtOSdtpp07nbOZS1vxgwdGMtPM65qLI"/>
         </div> 
-        <h2 className="desc"><>I am Abe a {text}</></h2>
-        <div className="aboutmeContainer">
-        <a href="#project"><button className="aboutMeButton">About Me</button></a>
-        </div>
-
-        
 </>
 }
 
