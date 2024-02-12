@@ -33,7 +33,8 @@
 .HW {
   font-size: 70px;
   display: flex;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
+  text-align: center;
 }
 .imgme {
   width: 90px;
