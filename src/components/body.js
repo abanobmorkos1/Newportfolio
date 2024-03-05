@@ -33,7 +33,7 @@ import { useState, useEffect } from "react";
         return <> 
         <div className="intro">
         <h2 className='HW'>Hello World, I'm Abe!</h2> 
-        <img className="imgme" src="https://media.licdn.com/dms/image/D4E03AQEhNGnTmIHRfg/profile-displayphoto-shrink_800_800/0/1696491861573?e=1708560000&v=beta&t=s8v5xTRsSD6KWtOSdtpp07nbOZS1vxgwdGMtPM65qLI"/>
+        <img className="imgme" src="https://media.licdn.com/dms/image/D4E03AQEhNGnTmIHRfg/profile-displayphoto-shrink_400_400/0/1696491861573?e=2147483647&v=beta&t=m-_yTIZIDg_eJfphjK2mfot1zD4g73ArlX4IImlH0ck"/>
         <h3>{text}</h3>
         </div> 
 </>
